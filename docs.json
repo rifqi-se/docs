@@ -60,7 +60,9 @@
             "pages": [
               "changelog",
               "changelog/screenapp",
-              "changelog/mediaplan"
+              "changelog/mediaplan",
+              "changelog/creative-approval",
+              "changelog/programmatic-deal"
             ]
           }
         ]
