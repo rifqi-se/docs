@@ -36,18 +36,19 @@
         ]
       },
       {
-        "tab": "CMS",
+        "tab": "ScreenApp",
         "groups": [
           {
-            "group": "Inventory Management",
+            "group": "Install ScreenApp",
             "pages": [
-              "inventory"
+              "screenapp",
+              "screenapp/windows"
             ]
           },
           {
-            "group": "Campaign",
+            "group": "Binding Player",
             "pages": [
-              "campaign/create-campaign"
+              "screenapp/binding"
             ]
           }
         ]
