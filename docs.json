@@ -109,8 +109,8 @@
     }
   },
   "logo": {
-    "light": "/logo/lynxssp-logo.svg",
-    "dark": "/logo/lynxssp-logo.svg"
+    "light": "/logo/lynx-light.svg",
+    "dark": "/logo/lynx-dark.svg"
   },
   "navbar": {
     "links": [
