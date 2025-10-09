@@ -52,7 +52,25 @@
           }
         ]
       },
-            {
+      {
+        "tab": "Client Portal",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "client-portal"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "client-portal/request-account",
+              "client-portal/login"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Changelog",
         "groups": [
           {
