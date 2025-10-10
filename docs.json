@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
             "group": "Get Started",
@@ -35,6 +35,25 @@
         ]
       },
       {
+        "tab": "Documentation",
+        "icon": "newspaper",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "client-portal"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "client-portal/request-account",
+              "client-portal/login"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "ScreenApp",
         "groups": [
           {
@@ -53,25 +72,7 @@
         ]
       },
       {
-        "tab": "Client Portal",
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "client-portal"
-            ]
-          },
-          {
-            "group": "Account",
-            "pages": [
-              "client-portal/request-account",
-              "client-portal/login"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
+        "tab": "Programmatic",
         "groups": [
           {
             "group": "Changelog",
@@ -87,6 +88,7 @@
       },
       {
         "tab": "API Reference",
+        "icon": "code",
         "groups": [
           {
             "group": "API Documentation",
