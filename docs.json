@@ -60,8 +60,30 @@
           "group": "Inventories",
           "expanded": false,
           "pages": [
-            "guideline/generate-report/inventories/create-new",
-            "guideline/generate-report/inventories/manage"
+            "guideline/generate-report/inventories",
+            "guideline/generate-report/inventories/specification-type-category",
+            "guideline/generate-report/inventories/create-dooh-inventory",
+            "guideline/generate-report/inventories/create-ooh-inventory"
+          ]
+        },
+        {
+          "group": "Campaign",
+          "expanded": false,
+          "pages": [
+            "guideline/generate-report/campaign",
+            "guideline/generate-report/campaign/create-campaign",
+            "guideline/generate-report/campaign/create-media-plan",
+            {
+              "group": "Schedule",
+              "expanded": false,
+              "pages": [
+                "guideline/generate-report/campaign/schedule",
+                "guideline/generate-report/campaign/schedule/edit-schedule"
+              ]
+            },
+            "guideline/generate-report/campaign/select-inventories",
+            "guideline/generate-report/campaign/launch-media-plan",
+            "guideline/generate-report/campaign/ad-measurement"
           ]
         }
       ]
