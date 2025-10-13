@@ -49,38 +49,23 @@
         ]
       },
       {
-  "tab": "Guideline",
-  "icon": "book-open",
-  "groups": [
-    {
-      "group": "Generate Campaign Report",
-      "pages": [
-        "guideline/generate-report/getting-started",
-        {
-          "group": "Inventories",
-          "expanded": false,
-          "pages": [
-            "guideline/generate-report/inventories/specification-type-category",
-            "guideline/generate-report/inventories/create-dooh-inventory",
-            "guideline/generate-report/inventories/create-ooh-inventory"
-          ]
-        },
-        {
-          "group": "Campaign",
-          "pages": [
-            "guideline/generate-report/campaign/page1"
-          ]
-        },
-        {
-          "group": "Report",
-          "pages": [
-            "guideline/generate-report/report/page1"
-          ]
-        }
-      ]
-    }
-  ]
-},
+        "tab": "Guideline",
+        "icon": "open-book",
+        "groups": [
+          {
+            "group": "HTML5 Testing",
+            "pages": [
+              "guideline/html5"
+            ]
+          },
+          {
+            "group": "Generate Campaign Report",
+            "pages": [
+              "guideline/generate-report/getting-started"
+            ]
+          }
+        ]
+      },
       {
         "tab": "ScreenApp",
         "groups": [
