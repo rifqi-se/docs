@@ -60,7 +60,7 @@
           "group": "Inventories",
           "expanded": false,
           "pages": [
-            "guideline/generate-report/inventories",
+            "guideline/generate-report/inventories/inventory",
             "guideline/generate-report/inventories/specification-type-category",
             "guideline/generate-report/inventories/create-dooh-inventory",
             "guideline/generate-report/inventories/create-ooh-inventory"
