@@ -49,18 +49,37 @@
         ]
       },
       {
-        "tab": "Guideline",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Generate Report",
-            "pages": [
-              "guideline/generate-report/getting-started",
-              "client-portal/login"
-            ]
-          }
-        ]
-      },
+  "tab": "Guideline",
+  "icon": "book-open",
+  "groups": [
+    {
+      "group": "Generate Campaign Report",
+      "pages": [
+        "guideline/generate-report/getting-started",
+        {
+          "group": "Inventories",
+          "expanded": true,
+          "pages": [
+            "guideline/generate-report/inventories/page1",
+            "guideline/generate-report/inventories/page2"
+          ]
+        },
+        {
+          "group": "Campaign",
+          "pages": [
+            "guideline/generate-report/campaign/page1"
+          ]
+        },
+        {
+          "group": "Report",
+          "pages": [
+            "guideline/generate-report/report/page1"
+          ]
+        }
+      ]
+    }
+  ]
+},
       {
         "tab": "ScreenApp",
         "groups": [
