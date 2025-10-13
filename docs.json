@@ -48,6 +48,25 @@
           }
         ]
       },
+        {
+        "tab": "Guideline",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "client-portal"
+            ]
+          },
+          {
+            "group": "Generate Report",
+            "pages": [
+              "guideline/generate-report/getting-started",
+              "client-portal/login"
+            ]
+          }
+        ]
+      },
       {
         "tab": "ScreenApp",
         "groups": [
