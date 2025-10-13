@@ -58,9 +58,8 @@
         "guideline/generate-report/getting-started",
         {
           "group": "Inventories",
-          "expanded": true,
+          "expanded": false,
           "pages": [
-            "guideline/generate-report/inventories/overview",
             "guideline/generate-report/inventories/create-new",
             "guideline/generate-report/inventories/manage"
           ]
