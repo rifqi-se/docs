@@ -48,12 +48,12 @@
           }
         ]
       },
-        {
+      {
         "tab": "Guideline",
         "icon": "book-open",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "HTML5 Testing",
             "pages": [
               "client-portal"
             ]
