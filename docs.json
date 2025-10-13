@@ -53,12 +53,6 @@
         "icon": "book-open",
         "groups": [
           {
-            "group": "HTML5 Testing",
-            "pages": [
-              "client-portal"
-            ]
-          },
-          {
             "group": "Generate Report",
             "pages": [
               "guideline/generate-report/getting-started",
