@@ -50,18 +50,18 @@
       },
       {
         "tab": "Guideline",
-        "icon": "open-book",
+        "icon": "book-open",
         "groups": [
-          {
-            "group": "HTML5 Testing",
-            "pages": [
-              "guideline/html5"
-            ]
-          },
           {
             "group": "Generate Campaign Report",
             "pages": [
               "guideline/generate-report/getting-started"
+            ]
+          },
+          {
+            "group": "HTML5 Testing",
+            "pages": [
+              "guideline/html5"
             ]
           }
         ]
