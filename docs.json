@@ -48,24 +48,33 @@
           }
         ]
       },
-      {
-        "tab": "Guideline",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Generate Campaign Report",
-            "pages": [
-              "guideline/generate-report/getting-started"
-            ]
-          },
-          {
-            "group": "HTML5 Testing",
-            "pages": [
-              "guideline/html5"
-            ]
-          }
-        ]
-      },
+  {
+  "tab": "Guideline",
+  "icon": "book-open",
+  "groups": [
+    {
+      "group": "Generate Campaign Report",
+      "pages": [
+        "guideline/generate-report/getting-started",
+        {
+          "group": "Inventories",
+          "expanded": true,
+          "pages": [
+            "guideline/generate-report/inventories/overview",
+            "guideline/generate-report/inventories/create-new",
+            "guideline/generate-report/inventories/manage"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "HTML5 Testing",
+      "pages": [
+        "guideline/html5"
+      ]
+    }
+  ]
+},
       {
         "tab": "ScreenApp",
         "groups": [
