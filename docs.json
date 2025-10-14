@@ -57,10 +57,10 @@
       "pages": [
         "guideline/generate-report/getting-started",
         {
-          "group": "Inventories",
+          "group": "Inventory",
           "expanded": false,
           "pages": [
-            "guideline/generate-report/inventories/inventories",
+            "guideline/generate-report/inventory/inventory",
             "guideline/generate-report/inventories/specification-type-category",
             "guideline/generate-report/inventories/create-dooh-inventory",
             "guideline/generate-report/inventories/create-ooh-inventory"
