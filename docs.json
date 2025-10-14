@@ -61,9 +61,20 @@
           "expanded": false,
           "pages": [
             "guideline/generate-report/inventory/inventory",
-            "guideline/generate-report/inventory/specification-type-category",
-            "guideline/generate-report/inventories/create-dooh-inventory",
-            "guideline/generate-report/inventories/create-ooh-inventory"
+            {
+              "group": "DOOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/inventory/dooh/create"
+              ]
+            },
+            {
+              "group": "OOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/inventory/ooh/create"
+              ]
+            }
           ]
         },
         {
