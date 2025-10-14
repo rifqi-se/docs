@@ -49,7 +49,7 @@
         ]
       },
   {
-  "tab": "Guideline",
+  "tab": "User Guideline",
   "icon": "book-open",
   "groups": [
     {
@@ -57,7 +57,7 @@
       "pages": [
         "guideline/generate-report/getting-started",
         {
-          "group": "Inventory",
+          "group": "Create Inventory",
           "expanded": false,
           "pages": [
             "guideline/generate-report/inventory/inventory",
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "group": "Campaign",
+          "group": "Create Campaign",
           "expanded": false,
           "pages": [
             "guideline/generate-report/campaign",
