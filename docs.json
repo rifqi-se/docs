@@ -60,7 +60,6 @@
           "group": "Create Inventory",
           "expanded": false,
           "pages": [
-            "guideline/generate-report/inventory/inventory",
             {
               "group": "DOOH",
               "expanded": false,
