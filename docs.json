@@ -64,14 +64,14 @@
               "group": "DOOH",
               "expanded": false,
               "pages": [
-              "guideline/generate-report/inventory/dooh/create"
+              "guideline/generate-report/create-inventory/dooh/create"
               ]
             },
             {
               "group": "OOH",
               "expanded": false,
               "pages": [
-              "guideline/generate-report/inventory/ooh/create"
+              "guideline/generate-report/create-inventory/ooh/create"
               ]
             }
           ]
