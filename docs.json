@@ -76,12 +76,7 @@
             }
           ]
         },
-        {
-          "group": "Create Campaign",
-          "pages": [
-            "guideline/generate-report/create-campaign/create"
-          ]
-        },
+            "guideline/generate-report/create-campaign/create",
         {
           "group": "Create Media Plan",
           "pages": [
