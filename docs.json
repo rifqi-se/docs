@@ -88,7 +88,10 @@
                 "guideline/generate-report/create-media-plan/schedule/schedule",
                 "guideline/generate-report/create-media-plan/schedule/edit"
               ]
-            }
+            },
+            "guideline/generate-report/create-media-plan/select-inventories",
+            "guideline/generate-report/create-media-plan/launch-media-plan",
+            "guideline/generate-report/create-media-plan/select-ad-measurement"
           ]
         }
       ]
