@@ -99,7 +99,10 @@
           "group": "Reports",
           "expanded": false,
           "pages":[
-            "guideline/generate-report/reports/reports"
+            "guideline/generate-report/reports/reports",
+            "guideline/generate-report/reports/download",
+            "guideline/generate-report/reports/share",
+            "guideline/generate-report/reports/access"
           ]
         }
       ]
