@@ -81,6 +81,12 @@
           "pages": [
             "guideline/generate-report/create-campaign/create"
           ]
+        },
+        {
+          "group": "Create Media Plan",
+          "pages": [
+            "guideline/generate-report/create-media-plan/create-media-plan"
+          ]
         }
       ]
     },
