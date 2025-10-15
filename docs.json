@@ -92,7 +92,7 @@
             "guideline/generate-report/create-media-plan/select-inventories",
             "guideline/generate-report/create-media-plan/generate-report",
             "guideline/generate-report/create-media-plan/launch-media-plan",
-            "guideline/generate-report/create-media-plan/select-ad-measurement"
+            "guideline/generate-report/create-media-plan/ad-measurement"
           ]
         }
       ]
