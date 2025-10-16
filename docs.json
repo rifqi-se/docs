@@ -38,7 +38,7 @@
               "pages": [
                   "guideline/generate-report/getting-started",
         {
-          "group": "Create Inventory",
+          "group": "Creating a Inventory",
           "expanded": false,
           "pages": [
             {
@@ -59,7 +59,7 @@
         },
             "guideline/generate-report/create-campaign/create",
         {
-          "group": "Create Media Plan",
+          "group": "Creating a Media Plan",
           "pages": [
             "guideline/generate-report/create-media-plan/create-media-plan",
             {
