@@ -233,39 +233,6 @@
   ]
 },
       {
-        "tab": "ScreenApp",
-        "groups": [
-          {
-            "group": "Install ScreenApp",
-            "pages": [
-              "screenapp",
-              "screenapp/windows"
-            ]
-          },
-          {
-            "group": "Binding Player",
-            "pages": [
-              "screenapp/binding"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Programmatic",
-        "groups": [
-          {
-            "group": "Changelog",
-            "pages": [
-              "changelog",
-              "changelog/screenapp",
-              "changelog/mediaplan",
-              "changelog/creative-approval",
-              "changelog/programmatic-deal"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "API Reference",
         "icon": "code",
         "groups": [
