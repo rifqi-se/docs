@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Lynx SSP Documentation",
   "colors": {
     "primary": "#10294C",
     "light": "#E5E6ED",
     "dark": "#10294C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/lynx-favicon.svg",
   "navigation": {
     "tabs": [
       {
