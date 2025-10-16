@@ -97,55 +97,19 @@
         "expanded": false,
         "pages": [
             "guideline/screen-connection/screen-app/getting-started",
+            "guideline/screen-connection/screen-app/create-dooh-inventory/create",
         {
-          "group": "Create Inventory",
+          "group": "Connect to Screen",
           "expanded": false,
           "pages": [
-            {
-              "group": "DOOH",
-              "expanded": false,
-              "pages": [
-              "guideline/generate-report/create-inventory/dooh/create"
-              ]
-            },
-            {
-              "group": "OOH",
-              "expanded": false,
-              "pages": [
-              "guideline/generate-report/create-inventory/ooh/create"
-              ]
-            }
+            "guideline/screen-connection/screen-app/connect-to-screen/connect-to-screen",
+            "guideline/screen-connection/screen-app/connect-to-screen/installation-windows",
+            "guideline/screen-connection/screen-app/connect-to-screen/connection"
           ]
         },
-            "guideline/generate-report/create-campaign/create",
-        {
-          "group": "Create Media Plan",
-          "pages": [
-            "guideline/generate-report/create-media-plan/create-media-plan",
-            {
-              "group": "Schedule",
-              "expanded": false,
-              "pages": [
-                "guideline/generate-report/create-media-plan/schedule/schedule",
-                "guideline/generate-report/create-media-plan/schedule/edit"
-              ]
-            },
-            "guideline/generate-report/create-media-plan/select-inventories",
-            "guideline/generate-report/create-media-plan/generate-report",
-            "guideline/generate-report/create-media-plan/launch-media-plan",
-            "guideline/generate-report/create-media-plan/ad-measurement"
-          ]
-        },
-        {
-          "group": "Reports",
-          "expanded": false,
-          "pages":[
-            "guideline/generate-report/reports/reports",
-            "guideline/generate-report/reports/download",
-            "guideline/generate-report/reports/share",
-            "guideline/generate-report/reports/access"
-          ]
-        }
+            "guideline/screen-connection/screen-app/create-filler-content/create",
+            "guideline/screen-connection/screen-app/create-filler-content/check-dooh-connection",
+            "guideline/screen-connection/screen-app/playlist-playlog"
         ]
         },
                 {
