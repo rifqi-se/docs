@@ -34,7 +34,7 @@
   "icon": "book-open",
   "groups": [
     {
-      "group": "Generate Campaign Report",
+      "group": "GENERATE CAMPAIGN REPORT",
       "pages": [
         {
         "group": "Generate Campaign Report",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "group": "Screen Connection",
+      "group": "SCREEN CONNECTION",
       "pages": [
         {
         "group": "Screen App",
