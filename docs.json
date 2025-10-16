@@ -11,25 +11,6 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Overview",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Glossary",
-            "pages": [
-              "glossary/frequently-asked-question"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Documentation",
         "icon": "newspaper",
         "groups": [
