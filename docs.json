@@ -55,7 +55,11 @@
     {
       "group": "Generate Campaign Report",
       "pages": [
-        "guideline/generate-report/getting-started",
+        {
+        "group": "Generate Campaign Report",
+        "expanded": false,
+        "pages": [
+                  "guideline/generate-report/getting-started",
         {
           "group": "Create Inventory",
           "expanded": false,
@@ -104,6 +108,8 @@
             "guideline/generate-report/reports/share",
             "guideline/generate-report/reports/access"
           ]
+        }
+        ]
         }
       ]
     },
