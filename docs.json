@@ -35,11 +35,7 @@
   "groups": [
     {
       "group": "GENERATE CAMPAIGN REPORT",
-      "pages": [
-        {
-        "group": "Generate Campaign Report",
-        "expanded": false,
-        "pages": [
+              "pages": [
                   "guideline/generate-report/getting-started",
         {
           "group": "Create Inventory",
@@ -91,8 +87,6 @@
           ]
         }
         ]
-        }
-      ]
     },
     {
       "group": "SCREEN CONNECTION",
