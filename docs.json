@@ -114,9 +114,120 @@
       ]
     },
     {
-      "group": "HTML5 Testing",
+      "group": "Screen Connection",
       "pages": [
-        "guideline/html5"
+        {
+        "group": "Screen App",
+        "expanded": false,
+        "pages": [
+            "guideline/screen-connection/screen-app/getting-started",
+        {
+          "group": "Create Inventory",
+          "expanded": false,
+          "pages": [
+            {
+              "group": "DOOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/create-inventory/dooh/create"
+              ]
+            },
+            {
+              "group": "OOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/create-inventory/ooh/create"
+              ]
+            }
+          ]
+        },
+            "guideline/generate-report/create-campaign/create",
+        {
+          "group": "Create Media Plan",
+          "pages": [
+            "guideline/generate-report/create-media-plan/create-media-plan",
+            {
+              "group": "Schedule",
+              "expanded": false,
+              "pages": [
+                "guideline/generate-report/create-media-plan/schedule/schedule",
+                "guideline/generate-report/create-media-plan/schedule/edit"
+              ]
+            },
+            "guideline/generate-report/create-media-plan/select-inventories",
+            "guideline/generate-report/create-media-plan/generate-report",
+            "guideline/generate-report/create-media-plan/launch-media-plan",
+            "guideline/generate-report/create-media-plan/ad-measurement"
+          ]
+        },
+        {
+          "group": "Reports",
+          "expanded": false,
+          "pages":[
+            "guideline/generate-report/reports/reports",
+            "guideline/generate-report/reports/download",
+            "guideline/generate-report/reports/share",
+            "guideline/generate-report/reports/access"
+          ]
+        }
+        ]
+        },
+                {
+        "group": "HTML",
+        "expanded": false,
+        "pages": [
+            "guideline/screen-connection/html/getting-started",
+        {
+          "group": "Create Inventory",
+          "expanded": false,
+          "pages": [
+            {
+              "group": "DOOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/create-inventory/dooh/create"
+              ]
+            },
+            {
+              "group": "OOH",
+              "expanded": false,
+              "pages": [
+              "guideline/generate-report/create-inventory/ooh/create"
+              ]
+            }
+          ]
+        },
+            "guideline/generate-report/create-campaign/create",
+        {
+          "group": "Create Media Plan",
+          "pages": [
+            "guideline/generate-report/create-media-plan/create-media-plan",
+            {
+              "group": "Schedule",
+              "expanded": false,
+              "pages": [
+                "guideline/generate-report/create-media-plan/schedule/schedule",
+                "guideline/generate-report/create-media-plan/schedule/edit"
+              ]
+            },
+            "guideline/generate-report/create-media-plan/select-inventories",
+            "guideline/generate-report/create-media-plan/generate-report",
+            "guideline/generate-report/create-media-plan/launch-media-plan",
+            "guideline/generate-report/create-media-plan/ad-measurement"
+          ]
+        },
+        {
+          "group": "Reports",
+          "expanded": false,
+          "pages":[
+            "guideline/generate-report/reports/reports",
+            "guideline/generate-report/reports/download",
+            "guideline/generate-report/reports/share",
+            "guideline/generate-report/reports/access"
+          ]
+        }
+        ]
+        }
       ]
     }
   ]
