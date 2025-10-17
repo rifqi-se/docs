@@ -36,6 +36,7 @@
     {
       "group": "GENERATE CAMPAIGN REPORT",
       "pages": [
+        "guideline/generate-report/getting-started",
         {
           "group": "Creating a Inventory",
           "expanded": false,
