@@ -34,9 +34,10 @@
   "icon": "book-open",
   "groups": [
     {
-      "group": "USER GUIDELINE",
+      "anchor": "Introduction",
+      "icon": "book-open-cover",
       "pages": [
-        "guideline/overview"
+        "guideline/introduction"
       ]
     },
     {
