@@ -34,13 +34,6 @@
   "icon": "book-open",
   "groups": [
     {
-      "anchor": "Introduction",
-      "icon": "book-open-cover",
-      "pages": [
-        "guideline/introduction"
-      ]
-    },
-    {
       "group": "GENERATE CAMPAIGN REPORT",
       "pages": [
         "guideline/generate-report/getting-started",
