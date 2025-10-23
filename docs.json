@@ -32,8 +32,13 @@
   {
   "tab": "User Guideline",
   "icon": "book-open",
-  "pages": "guideline/overview",
   "groups": [
+    {
+      "group": "USER GUIDELINE",
+      "pages": [
+        "guideline/overview"
+      ]
+    },
     {
       "group": "GENERATE CAMPAIGN REPORT",
       "pages": [
