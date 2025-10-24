@@ -142,9 +142,10 @@
     "tab": "Programmatic",
     "icon": "tv",
     "group": [
-      {
-        "group": "Screen App Windows"
-      }
+    {
+      "group": "PROGRAMMATIC",
+      "pages": ["programmatic/introduction"]
+    }
     ]
     },
       {
