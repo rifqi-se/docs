@@ -58,7 +58,7 @@
     },
         {
   "tab": "Generate Report Guideline",
-  "icon": "chart-no-axes-combined",
+  "icon": "book-open",
   "groups": [
     {
       "group": "GENERATE CAMPAIGN REPORT",
