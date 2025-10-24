@@ -34,7 +34,8 @@
   "icon": "book-open",
   "groups": [
     {
-      "pages": "guideline/user-guideline"
+      "group": "USER GUIDELINE",
+      "pages": ["guideline/introduction"]
     },
     {
       "group": "GENERATE CAMPAIGN REPORT",
