@@ -134,6 +134,15 @@
     }
   ]
 },
+  {
+    "tab": "Screen App",
+    "icon": "screen-share",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
       {
         "tab": "API Reference",
         "icon": "code",
