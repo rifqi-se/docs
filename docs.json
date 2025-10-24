@@ -145,27 +145,32 @@
     {
       "group": "PROGRAMMATIC",
       "pages": [
-        "programmatic/introduction",
-        "programmatic/features"
+        "programmatic/introduction"
       ]
     },
-      {
-        "group": "DEAL MANAGEMENT",
+    {
+        "group": "FEATURES",
         "pages": [
-          "programmatic/deal-management/deal-management",
-          "programmatic/deal-management/deal-type",
-          "programmatic/deal-management/deal-status",
-     {
-        "group": "Create a Deal",
-        "expanded": false,
-        "pages": [
-            "programmatic/deal-management/create/pg",
-            "guideline/screen-connection/create/pmp"
-        ]
-        },
-        "programmatic/deal-management/edit"
-        ]
-      }
+          {
+            "group": "Deal Management",
+            "expanded": false,
+            "pages":[
+              "programmatic/deal-management/deal-management",
+              "programmatic/deal-management/deal-type",
+              "programmatic/deal-management/deal-status",
+              {
+                "group": "Create a Deal",
+                "expanded": false,
+                "pages": [
+                  "programmatic/deal-management/create/pg",
+                  "programmatic/deal-management/create/pmp"
+                ]
+              },
+              "programmatic/deal-management/edit"
+            ]
+          }
+      ]
+    }
     ]
     },
       {
