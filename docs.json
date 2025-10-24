@@ -34,6 +34,9 @@
   "icon": "book-open",
   "groups": [
     {
+      "pages": "guideline/user-guideline"
+    },
+    {
       "group": "GENERATE CAMPAIGN REPORT",
       "pages": [
         "guideline/generate-report/getting-started",
