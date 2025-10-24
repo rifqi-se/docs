@@ -29,34 +29,9 @@
           }
         ]
       },
-  {
-    "tab": "Screen App",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
-  {
-    "tab": "HTML 5",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
-  {
-    "tab": "Programmatic",
-    "icon": "tv",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
-        {
-  "tab": "Generate Report Guideline",
-  "icon": "chart-line",
+              {
+  "tab": "User Guideline",
+  "icon": "book-open",
   "groups": [
     {
       "group": "GENERATE CAMPAIGN REPORT",
@@ -159,6 +134,15 @@
     }
   ]
 },
+  {
+    "tab": "Programmatic",
+    "icon": "tv",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
       {
         "tab": "API Reference",
         "icon": "code",
