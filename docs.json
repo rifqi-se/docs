@@ -136,7 +136,7 @@
 },
   {
     "tab": "Screen App",
-    "icon": "screen-share",
+    "icon": "monitor-smartphone",
     "group": [
       {
         "group": "Screen App Windows"
