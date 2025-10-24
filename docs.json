@@ -145,7 +145,8 @@
     {
       "group": "PROGRAMMATIC",
       "pages": [
-        "programmatic/introduction"
+        "programmatic/introduction",
+        "programmatic/getting-started-with-programmatic"
       ]
     },
     {
