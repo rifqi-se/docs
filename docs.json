@@ -152,6 +152,15 @@
       }
     ]
     },
+  {
+    "tab": "Programmatic",
+    "icon": "monitor-play",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
       {
         "tab": "API Reference",
         "icon": "code",
