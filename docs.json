@@ -168,24 +168,14 @@
               },
               "programmatic/deal-management/edit"
             ]
-          },
-          {
-            "group": "AdExchage",
-            "expanded": false,
-            "pages":[
-              "programmatic/ad-exchange/ad-exchange",
-              "programmatic/ad-exchange/download"
-            ]
-          },
-          {
-            "group": "Creative Approval",
-            "expanded": false,
-            "pages":[
-              "programmatic/creative-approval/creative-approval",
-              "programmatic/creative-approval/approve",
-              "programmatic/creative-approval/reject"
-            ]
           }
+      ]
+    },
+      {
+      "group": "RESOURCE & SUPPORT",
+      "pages": [
+        "programmatic/resource-and-support/frequently-asked-question",
+        "programmatic/resource-and-support/contact-us"
       ]
     }
     ]
