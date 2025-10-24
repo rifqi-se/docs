@@ -136,7 +136,7 @@
 },
   {
     "tab": "Screen App",
-    "icon": "smartphone",
+    "icon": "laptop-minimal",
     "group": [
       {
         "group": "Screen App Windows"
@@ -145,7 +145,7 @@
     },
   {
     "tab": "HTML 5",
-    "icon": "file-code-2",
+    "icon": "heading-5",
     "group": [
       {
         "group": "Screen App Windows"
