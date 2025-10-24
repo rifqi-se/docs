@@ -189,6 +189,12 @@
       ]
     },
       {
+      "group": "DSP PARTNERS",
+      "pages": [
+        "programmatic/dsp-partners"
+      ]
+    },
+      {
       "group": "RESOURCE & SUPPORT",
       "pages": [
         "programmatic/resource-and-support/frequently-asked-question",
