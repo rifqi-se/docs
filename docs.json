@@ -182,26 +182,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://id.linkedin.com/in/ageliusg",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://lynxssp.com",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://lynxssp.com",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/lynx-light.svg",
