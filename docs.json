@@ -30,7 +30,34 @@
         ]
       },
   {
-  "tab": "User Guideline",
+    "tab": "Screen App",
+    "icon": "laptop-minimal",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
+  {
+    "tab": "HTML 5",
+    "icon": "heading-5",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
+  {
+    "tab": "Programmatic",
+    "icon": "monitor-play",
+    "group": [
+      {
+        "group": "Screen App Windows"
+      }
+    ]
+    },
+        {
+  "tab": "Generate Report Guideline",
   "icon": "chart-no-axes-combined",
   "groups": [
     {
@@ -134,33 +161,6 @@
     }
   ]
 },
-  {
-    "tab": "Screen App",
-    "icon": "laptop-minimal",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
-  {
-    "tab": "HTML 5",
-    "icon": "heading-5",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
-  {
-    "tab": "Programmatic",
-    "icon": "monitor-play",
-    "group": [
-      {
-        "group": "Screen App Windows"
-      }
-    ]
-    },
       {
         "tab": "API Reference",
         "icon": "code",
