@@ -31,7 +31,6 @@
       },
   {
     "tab": "Screen App",
-    "icon": "tablet-screen-button",
     "group": [
       {
         "group": "Screen App Windows"
@@ -40,7 +39,6 @@
     },
   {
     "tab": "HTML 5",
-    "icon": "square-arrow-up-right",
     "group": [
       {
         "group": "Screen App Windows"
