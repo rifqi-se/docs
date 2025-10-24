@@ -141,11 +141,31 @@
   {
     "tab": "Programmatic",
     "icon": "tv",
-    "group": [
+    "groups": [
     {
       "group": "PROGRAMMATIC",
-      "pages": ["programmatic/introduction"]
-    }
+      "pages": [
+        "programmatic/introduction",
+        "programmatic/features"
+      ]
+    },
+      {
+        "group": "DEAL MANAGEMENT",
+        "pages": [
+          "programmatic/deal-management/deal-management",
+          "programmatic/deal-management/deal-type",
+          "programmatic/deal-management/deal-status",
+     {
+        "group": "Create a Deal",
+        "expanded": false,
+        "pages": [
+            "programmatic/deal-management/create/pg",
+            "guideline/screen-connection/create/pmp"
+        ]
+        },
+        "programmatic/deal-management/edit"
+        ]
+      }
     ]
     },
       {
