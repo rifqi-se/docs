@@ -31,7 +31,7 @@
       },
   {
     "tab": "Screen App",
-    "icon": "laptop-minimal",
+    "icon": "tablet-screen-button",
     "group": [
       {
         "group": "Screen App Windows"
@@ -40,7 +40,7 @@
     },
   {
     "tab": "HTML 5",
-    "icon": "heading-5",
+    "icon": "square-arrow-up-right",
     "group": [
       {
         "group": "Screen App Windows"
@@ -49,7 +49,7 @@
     },
   {
     "tab": "Programmatic",
-    "icon": "monitor-play",
+    "icon": "tv",
     "group": [
       {
         "group": "Screen App Windows"
