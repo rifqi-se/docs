@@ -1,0 +1,113 @@
+---
+title: "Sandbox Environment"
+description: "Testing and development environment for the Lynx SSP Ad Serving API"
+---
+
+## Overview
+
+The sandbox environment allows you to test API integrations without affecting production data. It mimics the production environment but uses separate data and endpoints.
+
+
+## Getting Started
+
+<Tip>
+**Try the Interactive Playground!** 
+You can test the Ad Serving API directly from your browser using our [Interactive Playground](/api-reference/ad-serving/ad-request). The playground comes pre-configured with sandbox credentials for immediate testing.
+</Tip>
+
+### Sandbox Base URL
+
+Please use this base URL for development:
+
+```
+https://sandbox-ad.lynxssp.com
+```
+
+### Sandbox Authentication
+
+For testing purposes, use the following API key:
+
+```
+api_key: f9a3c4b7e2d84f85b3a2a1e3c9f071ac
+```
+
+<Warning>
+This is a shared sandbox API key for testing only. Never use this key in production environments.
+</Warning>
+
+## Example Request
+
+```http
+POST /ad/request HTTP/1.1
+Host: sandbox-ad.lynxssp.com
+Lynx-Key: f9a3c4b7e2d84f85b3a2a1e3c9f071ac
+Content-Type: application/json
+
+{
+  "venue_id": "venue1234",
+  "screen_id": "any-screen-id",
+  "play_time": 1682448000
+}
+```
+
+### cURL Example
+
+```bash
+curl -X POST "https://sandbox-ad.lynxssp.com/ad/request" \
+  -H "Lynx-Key: f9a3c4b7e2d84f85b3a2a1e3c9f071ac" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "venue_id": "venue1234",
+    "screen_id": "any-screen-id",
+    "play_time": 1682448000
+  }'
+```
+
+## Example Response
+
+The sandbox environment provides consistent responses to help with testing:
+
+### Successful Ad Response
+```json
+{
+    "status": 200,
+    "data": {
+        "vast_tag": "<VAST version='2.0'><Ad id='ngfrhfjof-1748356156557'><Wrapper><AdSystem version='1.0'>Lynx AdSystem</AdSystem><VASTAdTagURI><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/vast/ngfrhfjof-1748356156557]]></VASTAdTagURI><Impression><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/callback/?ad_request_uuid=ngfrhfjof-1748356156557]]></Impression><Creatives><Creative><Linear><TrackingEvents><Tracking event='start'><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=start]]></Tracking><Tracking event='firstQuartile'><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=firstQuartile]]></Tracking><Tracking event='midpoint'><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=midpoint]]></Tracking><Tracking event='thirdQuartile'><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=thirdQuartile]]></Tracking><Tracking event='complete'><![CDATA[https://sandbox-ad.lynxssp.com/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=complete]]></Tracking></TrackingEvents></Linear></Creative></Creatives></Wrapper></Ad><Extension type='custom-meta'><venue_id><![CDATA[venue1234]]></venue_id><screen_id><![CDATA[Test12345]]></screen_id></Extension></VAST>",
+        "ad_request_uuid": "ngfrhfjof-1748356156557",
+        "ad_request_expired_at": 1748477576,
+        "venue_id": "venue1234",
+        "screen_id": "Test12345"
+    }
+}
+```
+
+### Response Structure
+
+The sandbox response includes:
+- **status**: HTTP status code (200 for success)
+- **data.vast_tag**: Complete VAST XML with tracking URLs
+- **data.ad_request_uuid**: Unique identifier for this ad request
+- **data.ad_request_expired_at**: Expiration timestamp
+- **data.venue_id**: The venue ID from your request
+- **data.screen_id**: The screen ID from your request
+
+## Interactive Testing
+
+### API Playground
+
+Want to test the API without writing code? Use our **[Interactive Playground](/api-reference/ad-serving/ad-request)** to:
+
+- **Send real API requests** directly from your browser
+- **See live responses** with actual VAST tags  
+- **Experiment with parameters** using the sandbox credentials
+- **Copy working code examples** in multiple programming languages
+
+The playground is pre-configured with all the sandbox credentials shown above, so you can start testing immediately!
+
+## Next Steps
+
+Once your integration is fully tested in the sandbox environment, you're ready to deploy to production.
+
+<Info>
+See our comprehensive [Production Deployment Guide](/api-reference/ad-serving/production) for detailed steps on transitioning to the live environment.
+</Info>

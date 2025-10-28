@@ -30,180 +30,199 @@
         ]
       },
       {
-  "tab": "User Guideline",
-  "icon": "book-open",
-  "groups": [
-    {
-      "group": "USER GUIDELINE",
-      "pages": ["guideline/introduction"]
-    },
-    {
-      "group": "GENERATE CAMPAIGN REPORT",
-      "pages": [
-        "guideline/generate-report/getting-started",
-        {
-          "group": "Creating a Inventory",
-          "expanded": false,
-          "pages": [
-            {
-              "group": "DOOH",
-              "expanded": false,
-              "pages": [
-              "guideline/generate-report/create-inventory/dooh/create"
-              ]
-            },
-            {
-              "group": "OOH",
-              "expanded": false,
-              "pages": [
-              "guideline/generate-report/create-inventory/ooh/create"
-              ]
-            }
-          ]
-        },
-            "guideline/generate-report/create-campaign/create",
-        {
-          "group": "Creating a Media Plan",
-          "pages": [
-            "guideline/generate-report/create-media-plan/create-media-plan",
-            {
-              "group": "Schedule",
-              "expanded": false,
-              "pages": [
-                "guideline/generate-report/create-media-plan/schedule/schedule",
-                "guideline/generate-report/create-media-plan/schedule/edit"
-              ]
-            },
-            "guideline/generate-report/create-media-plan/select-inventories",
-            "guideline/generate-report/create-media-plan/generate-report",
-            "guideline/generate-report/create-media-plan/launch-media-plan",
-            "guideline/generate-report/create-media-plan/ad-measurement"
-          ]
-        },
-        {
-          "group": "Reports",
-          "expanded": false,
-          "pages":[
-            "guideline/generate-report/reports/reports",
-            "guideline/generate-report/reports/download",
-            "guideline/generate-report/reports/share",
-            "guideline/generate-report/reports/access"
-          ]
-        }
-        ]
-    },
-    {
-      "group": "SCREEN CONNECTION",
-      "pages": [
-        {
-        "group": "Screen App",
-        "expanded": false,
-        "pages": [
-            "guideline/screen-connection/screen-app/getting-started",
-            "guideline/screen-connection/screen-app/create-dooh-inventory/create",
-        {
-          "group": "Connect to Screen",
-          "expanded": false,
-          "pages": [
-            "guideline/screen-connection/screen-app/connect-to-screen/connect-to-screen",
-            "guideline/screen-connection/screen-app/connect-to-screen/installation-windows",
-            "guideline/screen-connection/screen-app/connect-to-screen/connection"
-          ]
-        },
-            "guideline/screen-connection/screen-app/create-filler-content/create",
-            "guideline/screen-connection/screen-app/create-filler-content/check-dooh-connection",
-            "guideline/screen-connection/screen-app/playlist-playlog"
-        ]
-        },
-        {
-        "group": "HTML",
-        "expanded": false,
-        "pages": [
-            "guideline/screen-connection/html/getting-started",
-            "guideline/screen-connection/html/create-dooh-inventory/create",
-        {
-          "group": "Connect to Screen",
-          "expanded": false,
-          "pages": [
-            "guideline/screen-connection/html/connect-to-screen/connect-to-screen",
-            "guideline/screen-connection/html/connect-to-screen/connection"
-          ]
-        },
-            "guideline/screen-connection/html/create-filler-content/create",
-            "guideline/screen-connection/html/create-filler-content/check-dooh-connection",
-            "guideline/screen-connection/html/playlist-playlog"
-        ]
-        }
-      ]
-    }
-  ]
-},
-    {
-    "tab": "Programmatic",
-    "icon": "tv",
-    "groups": [
-    {
-      "group": "PROGRAMMATIC",
-      "pages": [
-        "programmatic/introduction",
-        "programmatic/getting-started-with-programmatic"
-      ]
-    },
-    {
-        "group": "FEATURES",
-        "pages": [
+        "tab": "User Guideline",
+        "icon": "book-open",
+        "groups": [
           {
-            "group": "Deal Management",
-            "expanded": false,
-            "pages":[
-              "programmatic/deal-management/deal-management",
-              "programmatic/deal-management/deal-type",
-              "programmatic/deal-management/deal-status",
+            "group": "USER GUIDELINE",
+            "pages": [
+              "guideline/introduction"
+            ]
+          },
+          {
+            "group": "GENERATE CAMPAIGN REPORT",
+            "pages": [
+              "guideline/generate-report/getting-started",
               {
-                "group": "Create a Deal",
+                "group": "Creating a Inventory",
                 "expanded": false,
                 "pages": [
-                  "programmatic/deal-management/create/pg",
-                  "programmatic/deal-management/create/pmp"
+                  {
+                    "group": "DOOH",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/generate-report/create-inventory/dooh/create"
+                    ]
+                  },
+                  {
+                    "group": "OOH",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/generate-report/create-inventory/ooh/create"
+                    ]
+                  }
                 ]
               },
-              "programmatic/deal-management/edit"
+              "guideline/generate-report/create-campaign/create",
+              {
+                "group": "Creating a Media Plan",
+                "pages": [
+                  "guideline/generate-report/create-media-plan/create-media-plan",
+                  {
+                    "group": "Schedule",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/generate-report/create-media-plan/schedule/schedule",
+                      "guideline/generate-report/create-media-plan/schedule/edit"
+                    ]
+                  },
+                  "guideline/generate-report/create-media-plan/select-inventories",
+                  "guideline/generate-report/create-media-plan/generate-report",
+                  "guideline/generate-report/create-media-plan/launch-media-plan",
+                  "guideline/generate-report/create-media-plan/ad-measurement"
+                ]
+              },
+              {
+                "group": "Reports",
+                "expanded": false,
+                "pages": [
+                  "guideline/generate-report/reports/reports",
+                  "guideline/generate-report/reports/download",
+                  "guideline/generate-report/reports/share",
+                  "guideline/generate-report/reports/access"
+                ]
+              }
             ]
           },
           {
-            "group": "Ad Exchange",
-            "expanded": false,
-            "pages":[
-              "programmatic/ad-exchange/ad-exchange",
-              "programmatic/ad-exchange/download"
-            ]
-          },
-          {
-            "group": "Creative Approval",
-            "expanded": false,
-            "pages":[
-              "programmatic/creative-approval/creative-approval",
-              "programmatic/creative-approval/approve",
-              "programmatic/creative-approval/deny"
+            "group": "SCREEN CONNECTION",
+            "pages": [
+              {
+                "group": "Screen App",
+                "expanded": false,
+                "pages": [
+                  "guideline/screen-connection/screen-app/getting-started",
+                  "guideline/screen-connection/screen-app/create-dooh-inventory/create",
+                  {
+                    "group": "Connect to Screen",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/screen-connection/screen-app/connect-to-screen/connect-to-screen",
+                      "guideline/screen-connection/screen-app/connect-to-screen/installation-windows",
+                      "guideline/screen-connection/screen-app/connect-to-screen/connection"
+                    ]
+                  },
+                  "guideline/screen-connection/screen-app/create-filler-content/create",
+                  "guideline/screen-connection/screen-app/create-filler-content/check-dooh-connection",
+                  "guideline/screen-connection/screen-app/playlist-playlog"
+                ]
+              },
+              {
+                "group": "HTML",
+                "expanded": false,
+                "pages": [
+                  "guideline/screen-connection/html/getting-started",
+                  "guideline/screen-connection/html/create-dooh-inventory/create",
+                  {
+                    "group": "Connect to Screen",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/screen-connection/html/connect-to-screen/connect-to-screen",
+                      "guideline/screen-connection/html/connect-to-screen/connection"
+                    ]
+                  },
+                  "guideline/screen-connection/html/create-filler-content/create",
+                  "guideline/screen-connection/html/create-filler-content/check-dooh-connection",
+                  "guideline/screen-connection/html/playlist-playlog"
+                ]
+              },
+              {
+                "group": "API",
+                "expanded": false,
+                "pages": [
+                  "guideline/screen-connection/api/getting-started",
+                  "guideline/screen-connection/api/create-dooh-inventory/create",
+                  {
+                    "group": "Connect to Screen",
+                    "expanded": false,
+                    "pages": [
+                      "guideline/screen-connection/api/connect-to-screen/connect-to-screen",
+                      "guideline/screen-connection/api/connect-to-screen/connection",
+                      "guideline/screen-connection/api/connect-to-screen/playground"
+                    ]
+                  }
+                ]
+              }
             ]
           }
-      ]
-    },
+        ]
+      },
       {
-      "group": "DSP PARTNERS",
-      "pages": [
-        "programmatic/dsp-partner"
-      ]
-    },
-      {
-      "group": "RESOURCE & SUPPORT",
-      "pages": [
-        "programmatic/resource-and-support/frequently-asked-question",
-        "programmatic/resource-and-support/contact-us"
-      ]
-    }
-    ]
-    },
+        "tab": "Programmatic",
+        "icon": "tv",
+        "groups": [
+          {
+            "group": "PROGRAMMATIC",
+            "pages": [
+              "programmatic/introduction",
+              "programmatic/getting-started-with-programmatic"
+            ]
+          },
+          {
+            "group": "FEATURES",
+            "pages": [
+              {
+                "group": "Deal Management",
+                "expanded": false,
+                "pages": [
+                  "programmatic/deal-management/deal-management",
+                  "programmatic/deal-management/deal-type",
+                  "programmatic/deal-management/deal-status",
+                  {
+                    "group": "Create a Deal",
+                    "expanded": false,
+                    "pages": [
+                      "programmatic/deal-management/create/pg",
+                      "programmatic/deal-management/create/pmp"
+                    ]
+                  },
+                  "programmatic/deal-management/edit"
+                ]
+              },
+              {
+                "group": "Ad Exchange",
+                "expanded": false,
+                "pages": [
+                  "programmatic/ad-exchange/ad-exchange",
+                  "programmatic/ad-exchange/download"
+                ]
+              },
+              {
+                "group": "Creative Approval",
+                "expanded": false,
+                "pages": [
+                  "programmatic/creative-approval/creative-approval",
+                  "programmatic/creative-approval/approve",
+                  "programmatic/creative-approval/deny"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "DSP PARTNERS",
+            "pages": [
+              "programmatic/dsp-partner"
+            ]
+          },
+          {
+            "group": "RESOURCE & SUPPORT",
+            "pages": [
+              "programmatic/resource-and-support/frequently-asked-question",
+              "programmatic/resource-and-support/contact-us"
+            ]
+          }
+        ]
+      },
       {
         "tab": "API Reference",
         "icon": "code",
@@ -211,16 +230,19 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "api-reference/ad-serving/introduction",
+              "api-reference/ad-serving/authentication",
+              "api-reference/ad-serving/sandbox",
+              "api-reference/ad-serving/production",
+              "api-reference/ad-serving/uat",
+              "api-reference/ad-serving/monitoring"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Playground",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/ad-serving/ad-request"
+              
             ]
           }
         ]

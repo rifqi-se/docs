@@ -1,0 +1,118 @@
+---
+title: "Ad Request"
+api: "POST https://sandbox-ad.lynxssp.com/api/v1/ad/request"
+description: "Request an ad from the Lynx SSP platform"
+---
+
+## Overview
+
+Call the API to request an ad.  
+This informs **LynxSSP** that an ad space is available and ready to be filled.
+
+<Info>
+For development or testing, please refer to our **[Sandbox Environment](/api-reference/ad-serving/sandbox)** to simulate API requests without affecting production data.
+</Info>
+
+## Authentication
+
+All API requests require authentication using the `Lynx-Key` header. See [Authentication](/api-reference/ad-serving/authentication) for details.
+
+## Request Headers
+
+<ParamField header="Lynx-Key" type="string" required default="f9a3c4b7e2d84f85b3a2a1e3c9f071ac">
+  Unique authentication key for your account
+</ParamField>
+
+## Query Parameters
+
+<ParamField query="format" type="string" required default="json">
+  Specifies the response format. Accepted values: `json` or `xml`
+  
+  When `format=xml` is used, the API returns the VAST tag response in XML instead of JSON.
+</ParamField>
+
+## Request Body
+
+<ParamField body="venue_id" type="string" required default="venue1234">
+  Defines which venue is doing the ad request. This should be your ID in your system.
+  
+  Will be returned in both JSON body and the VAST tag wrapper as an extension.
+</ParamField>
+
+<ParamField body="screen_id" type="string" default="any-screen-id">
+  Additional information to identify which screen in the venue is sending the ad request.
+  
+  Will be returned in both JSON body and the VAST tag wrapper as an extension.
+</ParamField>
+
+<ParamField body="play_time" type="integer" required>
+  Time in the future at which you expect to show the ad in UTC epoch seconds.
+</ParamField>
+
+## Response
+
+<ResponseField name="vast_tag" type="text" required>
+  VAST tag to be played on the specified screen and time.
+</ResponseField>
+
+<ResponseField name="ad_request_uuid" type="string" required>
+  Ad Request UUID to be used for Proof of Play identifier.
+</ResponseField>
+
+<ResponseField name="ad_request_expired_at" type="integer" required>
+  Time in the future at which the ad is no longer feasible to play in UTC epoch seconds.
+</ResponseField>
+
+<ResponseField name="venue_id" type="string" required>
+  The `venue_id` sent in the ad request.
+</ResponseField>
+
+<ResponseField name="screen_id" type="string">
+  The `screen_id` sent in the ad request.
+</ResponseField>
+
+<Warning>
+The **VAST tag** includes both tracking event URLs and an impression URL.  
+These URLs **must be triggered (fired)** by your player in order for impressions and tracking events to be properly recorded on our side.
+</Warning>
+
+## Empty Response
+
+**HTTP Status Code:** `204 No Content`
+
+In some scenarios, the ad request endpoint may return a successful response with no body content. This typically indicates that:
+
+- The request was valid and processed successfully.  
+- However, there are no ads to return based on the given parameters or request context.
+
+## Example Request
+
+<Info>
+This example uses sandbox credentials. For production, replace with your actual API key and venue/screen IDs.
+</Info>
+
+```bash
+curl -X POST "https://sandbox-ad.playlog.io/ad/request?format=json" \
+  -H "Lynx-Key: f9a3c4b7e2d84f85b3a2a1e3c9f071ac" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "venue_id": "venue1234",
+    "screen_id": "any-screen-id",
+    "play_time": 1682448000
+  }'
+```
+
+## Example Response
+
+```json
+{
+    "status": 200,
+    "data": {
+        "vast_tag": "<VAST version='2.0'><Ad id='ngfrhfjof-1748356156557'><Wrapper><AdSystem version='1.0'>Lynx AdSystem</AdSystem><VASTAdTagURI><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/vast/ngfrhfjof-1748356156557]]></VASTAdTagURI><Impression><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/callback/?ad_request_uuid=ngfrhfjof-1748356156557]]></Impression><Creatives><Creative><Linear><TrackingEvents><Tracking event='start'><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=start]]></Tracking><Tracking event='firstQuartile'><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=firstQuartile]]></Tracking><Tracking event='midpoint'><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=midpoint]]></Tracking><Tracking event='thirdQuartile'><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=thirdQuartile]]></Tracking><Tracking event='complete'><![CDATA[https://sandbox-ad.playlog.io/api/v1/ad/tracking/video/?ad_request_uuid=ngfrhfjof-1748356156557&event=complete]]></Tracking></TrackingEvents></Linear></Creative></Creatives></Wrapper></Ad><Extension type='custom-meta'><venue_id><![CDATA[venue1234]]></venue_id><screen_id><![CDATA[any-screen-id]]></screen_id></Extension></VAST>",
+        "ad_request_uuid": "ngfrhfjof-1748356156557",
+        "ad_request_expired_at": 1748477576,
+        "venue_id": "venue1234",
+        "screen_id": "any-screen-id"
+    }
+}
+```

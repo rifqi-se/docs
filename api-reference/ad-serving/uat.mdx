@@ -1,0 +1,132 @@
+---
+title: "User Acceptance Testing (UAT)"
+description: "Comprehensive testing requirements for production Ad Serving API integration"
+---
+
+## Overview
+
+User Acceptance Testing (UAT) is a critical phase to validate your Ad Serving API integration before going fully live. This comprehensive testing ensures your integration meets all technical and operational requirements for successful ad delivery.
+
+## Test Requirements
+
+<Check>
+**Duration:** Minimum 6 hours per day over a 3-day period
+</Check>
+
+<Check>
+**Scope:** All screens expected to go live (LYNX sets up venues in your production account)
+</Check>
+
+<Check>
+**Campaigns:** Test campaigns run across your entire network (LYNX sets up and activates test campaigns)
+</Check>
+
+## Integration Health Requirements
+
+The following checklist outlines what we observe after test campaigns are launched in the production environment:
+
+| Test Activity | Description | Success Criteria |
+|---------------|-------------|------------------|
+| **Send Ad Requests** | Ad requests must send required information to the ad server | See [Ad Serving API](/api-reference/ad-serving/ad-request) for required fields |
+| **Multi-Screen Venue Testing** | All test screens within a venue request ads from the ad server | 100% of agreed upon screens send requests |
+| **Request Frequency** | Send ad requests matching real-world volume patterns | Actual volume within ±10% of expected ad request volume |
+| **Ad Response Reception** | All ad requests receive appropriate responses from LYNX SSP | 90%+ of requests receive valid VAST responses |
+| **Screen Display Quality** | Physical screens show ads correctly without display issues | 95%+ of ads play completely and correctly on screens |
+| **Dashboard Accuracy** | Ad Exchange Dashboard shows accurate data vs. physical reality | Dashboard metrics match screen performance within 5% variance |
+| **Creative Playback Quality** | Video and display ads play without technical issues | 100% of creatives display properly (no freezing, pixelation, or cut-off) |
+| **Proof of Play Reporting** | PoP URLs fire correctly when ads complete playback | 95%+ PoP success rate within 60 minutes of ad completion |
+| **VAST Video Completion** | Tracking metrics record video milestones (start, quartiles, complete) | 100% completion rate without interruption |
+
+<Info>
+**VAST Video Tracking Events:** These include start, firstQuartile, midpoint, thirdQuartile, and complete events that must be properly fired during video ad playback.
+</Info>
+
+## Campaign Test Requirements
+
+### Deal Type Testing
+
+<Check>
+**PMP Deal Testing:** Private marketplace campaigns deliver correctly to designated screens
+</Check>
+
+<Check>
+**PG Deal Testing:** Programmatic guaranteed campaigns meet delivery targets without issues
+</Check>
+
+### Creative Format Testing
+
+<Check>
+**Video Formats:** Both 15-second and 30-second video ads play correctly across all screen types
+</Check>
+
+<Check>
+**Display Formats:** Static and animated display ads render properly on all screen configurations
+</Check>
+
+## Success Criteria
+
+For UAT to pass, all of the following must be achieved:
+
+✅ **Integration Health Requirements** - All technical requirements meet or exceed expectations
+
+✅ **Physical Screen Performance** - No critical display issues observed on actual screens
+
+✅ **Dashboard Validation** - Reporting accuracy validated against real-world performance
+
+✅ **Operational Readiness** - Publisher team confident in live operations capability
+
+## Testing Process
+
+### Phase 1: Technical Validation (Day 1)
+- **API Integration Testing** - Verify all API calls function correctly
+- **VAST Processing** - Confirm proper parsing and playback of VAST responses
+- **Tracking Implementation** - Validate all impression and event tracking URLs fire properly
+
+### Phase 2: Performance Testing (Day 2)
+- **Volume Testing** - Verify system handles expected request volumes
+- **Quality Assurance** - Test various creative formats and screen configurations  
+- **Dashboard Monitoring** - Validate reporting accuracy and real-time updates
+
+### Phase 3: Operational Testing (Day 3)
+- **End-to-End Campaigns** - Run complete campaign scenarios
+- **Error Handling** - Test system resilience and fallback mechanisms
+- **Documentation Review** - Ensure operational procedures are ready
+
+## Common Issues & Troubleshooting
+
+### API Integration Issues
+- **Missing Required Fields** - Ensure venue_id, screen_id, and play_time are included
+- **Authentication Errors** - Verify production API key is correctly configured
+- **Request Format Issues** - Validate JSON structure and content-type headers
+
+### Playback Issues  
+- **VAST Parsing Errors** - Check media player VAST compatibility
+- **Creative Display Problems** - Verify screen resolution and aspect ratio support
+- **Tracking URL Failures** - Ensure network connectivity for tracking pixel firing
+
+### Dashboard Discrepancies
+- **Reporting Delays** - Allow up to 60 minutes for data processing
+- **Metric Variances** - Investigate network connectivity or tracking implementation
+- **Missing Data** - Verify all required tracking events are being fired
+
+## Post-UAT Actions
+
+### Upon Successful Completion
+1. **Production Approval** - LYNX team provides go-live authorization
+2. **Campaign Activation** - Live campaigns begin serving to your inventory
+3. **Monitoring Setup** - Ongoing performance monitoring and optimization
+4. **Support Transition** - Move from implementation to operational support
+
+### If Issues Are Found
+1. **Issue Documentation** - Detailed logging of all problems identified
+2. **Remediation Plan** - Collaborative plan to address technical issues
+3. **Re-testing Schedule** - Additional UAT cycles until all requirements met
+4. **Support Escalation** - Technical team assistance for complex problems
+
+<Warning>
+UAT must be completed successfully before live campaign activation. Any critical issues must be resolved before proceeding to production.
+</Warning>
+
+<Info>
+Need assistance with UAT planning or execution? Our technical team can provide guidance and support throughout the testing process.
+</Info>

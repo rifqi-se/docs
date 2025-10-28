@@ -1,0 +1,72 @@
+---
+title: "Authentication"
+description: "How to authenticate with the Lynx SSP Ad Serving API"
+---
+
+## Overview
+
+All API requests to the Lynx SSP Ad Serving API require authentication using a unique API key. This ensures secure access to your account and prevents unauthorized usage.
+
+## API Key
+
+Your API key is provided through the `Lynx-Key` header in all API requests.
+
+### Obtaining Your API Key
+
+You can obtain your API key in two ways:
+
+1. **From Display Details Page:**
+   - Go to the **"Screens"** section on the Display Details page
+   - Click the **"Connect Player"** button and select **"API Integration"**
+   - Copy the **API Secret Key** for your production environment
+
+2. **From User Settings:**
+   - Navigate to the User Settings page
+   - This page also provides the API base URLs required for integration
+
+### Using Your API Key
+
+Include your API key in the request header:
+
+```bash
+Lynx-Key: your-api-key-here
+```
+
+## Security Best Practices
+
+<Warning>
+Your api_key is private and should never be shared with third parties. Treat it like a password to prevent unauthorized access to your account.
+</Warning>
+
+- **Keep it secure:** Never expose your API key in client-side code, public repositories, or logs
+- **Environment-specific keys:** Use different keys for development and production environments
+
+## Example Usage
+
+```bash
+curl -X POST "https://ad.lynxssp.com/api/v1/ad/request?format=json" \
+  -H "Lynx-Key: your-api-key-here" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "venue_id": "venue_123",
+    "screen_id": "screen_456",
+    "play_time": 1698451200
+  }'
+```
+
+## Troubleshooting
+
+### Common Authentication Errors
+
+**401 Unauthorized**
+- Check that your `Lynx-Key` header is included
+- Verify that your API key is correct and active
+- Ensure there are no extra spaces or characters in the key
+
+**403 Forbidden**
+- Your API key may not have permission for the requested operation
+- Contact support if you believe this is an error
+
+**Missing Header**
+- Ensure the `Lynx-Key` header is properly formatted
+- Header name is case-sensitive
